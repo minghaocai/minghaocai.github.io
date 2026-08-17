@@ -1,3 +1,23 @@
+- id: chiwork26-happycal
+  title: "HappyCal: Designing Text and Image-Based Supports for Savouring Positive Work Experiences"
+  authors: "Stewart, M., Cai, M., Tang, A., Liu, S., Mosunic, C., & Somanath, S."
+  venue: CHIWORK 2026
+  year: 2026
+  teaser: chiwork26-happycal.png
+  selected: true
+  theme: Well-being
+  doi: https://doi.org/10.1145/3808045.3808067
+
+- id: aied26-nehiyawewin
+  title: "Supporting the Text Entry of Nêhiyawêwin for Lifelong Learners"
+  authors: "Teodorescu, D., Gorgun, G., Lothian, D., Yan, J., Matalski, J., Abdullah, Y. A., Wang, H., Cai, M., & Demmans Epp, C."
+  venue: AIED 2026
+  year: 2026
+  teaser: aied26-nehiyawewin.png
+  selected: false
+  theme: Learning
+  doi: https://doi.org/10.1007/978-3-032-29773-0_13
+
 - id: aied25-interplay
   title: "Unveiling the interplay between affect and cognitive load during simulation-based training"
   authors: "Cai, M., Guevarra, M., Abdullah, Y. A., & Demmans Epp, C."
