@@ -7,14 +7,12 @@ permalink: /publications/
 <h1>Publications</h1>
 <p class="lead-small">Full list. My name is highlighted. <a href="{{ site.scholar }}">Google Scholar</a></p>
 
-{% assign pubs = site.data.publications | sort: "year" | reverse %}
-{% assign current_year = "" %}
-{% for pub in pubs %}
-  {% if pub.year != current_year %}
-    {% assign current_year = pub.year %}
-    <h2 class="year">{{ pub.year }}</h2>
-  {% endif %}
-  {% include pub.html %}
+{% assign grouped = site.data.publications | group_by: "year" | sort: "name" | reverse %}
+{% for year_group in grouped %}
+  <h2 class="year">{{ year_group.name }}</h2>
+  {% for pub in year_group.items %}
+    {% include pub.html %}
+  {% endfor %}
 {% endfor %}
 
 <h1>Talks &amp; Presentations</h1>
