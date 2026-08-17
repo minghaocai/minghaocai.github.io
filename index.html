@@ -44,7 +44,7 @@ title: About
 <h1>Selected Publications</h1>
 {% assign selected = site.data.publications | where: "selected", true %}
 {% for pub in selected %}
-  {% include pub.html %}
+{% include pub.html %}
 {% endfor %}
 
 <p class="more"><a href="{{ '/publications/' | relative_url }}">All publications →</a></p>
