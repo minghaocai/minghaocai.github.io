@@ -195,8 +195,9 @@ a:hover { color: var(--accent); }
 .pub-thumb {
   width: 200px;
   height: 150px;
-  object-fit: contain;
-  background: #f7f7f7;
+  object-fit: cover;
+  object-position: center;
+  background: #f3f1ed;
   display: block;
 }
 .pub-title {
