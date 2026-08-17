@@ -1,4 +1,4 @@
-# Mark (Minghao) Cai
+# Minghao Cai
 
 Personal academic website. Source for [minghaocai.github.io](https://minghaocai.github.io).
 

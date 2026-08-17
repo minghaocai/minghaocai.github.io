@@ -1,5 +1,5 @@
-title: Mark (Minghao) Cai
-author: Mark (Minghao) Cai
+title: Minghao Cai
+author: Minghao Cai
 description: PhD Candidate in Computing Science at the University of Alberta. Research on affect, cognitive load, and human-AI interaction in learning.
 url: https://minghaocai.github.io
 baseurl: ""
@@ -9,8 +9,8 @@ plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
 
-name_short: Mark Cai
-name_full: Mark (Minghao) Cai
+name_short: Minghao Cai
+name_full: Minghao Cai
 role: PhD Candidate
 department: Department of Computing Science
 affiliation: University of Alberta
