@@ -1,0 +1,28 @@
+title: Mark (Minghao) Cai
+author: Mark (Minghao) Cai
+description: PhD Candidate in Computing Science at the University of Alberta. Research on affect, cognitive load, and human-AI interaction in learning.
+url: https://minghaocai.github.io
+baseurl: ""
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-redirect-from
+
+name_short: Mark Cai
+name_full: Mark (Minghao) Cai
+role: PhD Candidate
+department: Department of Computing Science
+affiliation: University of Alberta
+email: minghaocai@ualberta.ca
+scholar: https://scholar.google.com/citations?user=yeLWfbwAAAAJ&hl=en
+linkedin: https://www.linkedin.com/in/minghao-cai/
+twitter: https://twitter.com/mh_cai
+github: https://github.com/minghaocai
+permalink: pretty
+exclude:
+  - tmp
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - _preview

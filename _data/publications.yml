@@ -1,0 +1,181 @@
+- id: aied25-interplay
+  title: "Unveiling the interplay between affect and cognitive load during simulation-based training"
+  authors: "Cai, M., Guevarra, M., Abdullah, Y. A., & Demmans Epp, C."
+  venue: AIED 2025
+  year: 2025
+  teaser: aied25-interplay.png
+  selected: true
+  theme: Affect
+  pdf:
+  doi: https://doi.org/10.1007/978-3-031-98420-4_31
+
+- id: aied25-proxy
+  title: "Modeling intrinsic load: Can item difficulty be a reasonable proxy?"
+  authors: "Gorgun, G., Cai, M., & Demmans Epp, C."
+  venue: AIED 2025
+  year: 2025
+  teaser: aied25-proxy.png
+  selected: true
+  theme: Cognitive Load
+  doi: https://doi.org/10.1007/978-3-031-98462-4_33
+
+- id: umap25-pilot
+  title: Pilot Trainees Benefit from Modelling and Adaptive Feedback
+  authors: "Abdullah, Y. A., Guevarra, M., Cai, M., Yang, J., Matthew, E. T., & Demmans Epp, C."
+  venue: UMAP 2025
+  year: 2025
+  teaser: umap25-pilot.png
+  selected: true
+  theme: Simulation
+  doi: https://doi.org/10.1145/3699682.3728337
+
+- id: aera25-difficulty
+  title: Difficulty as a proxy for measuring intrinsic cognitive load
+  authors: "Cai, M., Gorgun, G., & Demmans Epp, C."
+  venue: AERA 2025
+  year: 2025
+  teaser: aera25-difficulty.png
+  selected: false
+  theme: Cognitive Load
+  note: Poster
+  doi: https://doi.org/10.48550/arXiv.2507.13235
+
+- id: edm24-sensors
+  title: Predicting Cognitive Load Using Sensor Data in a Literacy Game
+  authors: "Cai, M., & Demmans Epp, C."
+  venue: EDM 2024
+  year: 2024
+  teaser: edm24-sensors.png
+  selected: false
+  theme: Cognitive Load
+  doi: https://zenodo.org/records/12729950
+
+- id: physiochi24-window
+  title: Exploring the optimal time window for predicting cognitive load using physiological sensor data
+  authors: "Cai, M., & Demmans Epp, C."
+  venue: PhysioCHI 2024
+  year: 2024
+  teaser: physiochi24-window.png
+  selected: false
+  theme: Cognitive Load
+  doi: https://doi.org/10.48550/arXiv.2406.13793
+
+- id: chi24-affect-cl
+  title: "Toward Supporting Adaptation: Exploring Affect's Role in Cognitive Load when Using a Literacy Game"
+  authors: "Cai, M., Rebolledo Méndez, G., Arevalo, G., Tang, S. S., Abdullah, Y. A., & Demmans Epp, C."
+  venue: CHI 2024
+  year: 2024
+  teaser: chi24-affect-cl.png
+  selected: true
+  theme: Affect
+  doi: https://doi.org/10.1145/3613904.3642150
+
+- id: cscw23-crafting
+  title: Exploring Collaborative Culture Sharing Dynamics in Immigrant Families through Digital Crafting and Storytelling
+  authors: "Liaqat, A., Demmans Epp, C., Cai, M., & Munteanu, C."
+  venue: CSCW 2023
+  year: 2023
+  teaser: cscw23-crafting.png
+  selected: true
+  theme: Well-being
+  doi: https://doi.org/10.1145/3610098
+
+- id: earli23-review
+  title: "Automatically Detecting Affect in Computerized Learning Environments: A Systematic Literature Review"
+  authors: "González Esparza, L., Cai, M., Palestino, I., Rebolledo-Mendez, G., Demmans Epp, C., & Cutumisu, M."
+  venue: EARLI 2023
+  year: 2023
+  teaser: earli23-review.png
+  selected: false
+  theme: Affect
+
+- id: edm22-adaptive
+  title: Cognitive Load and Affect to Support Adaptive Online Learning Modeling
+  authors: "Cai, M., & Demmans Epp, C."
+  venue: EDM 2022
+  year: 2022
+  teaser: edm22-adaptive.png
+  selected: false
+  theme: Cognitive Load
+  doi: https://doi.org/10.5281/zenodo.6853020
+
+- id: aied22-tensions
+  title: "Complex Learning Environments: Tensions in Student Perspectives that Indicate Competing Values"
+  authors: "Cai, M., Demmans Epp, C., & Firoozi, T."
+  venue: AIED 2022
+  year: 2022
+  teaser: aied22-tensions.png
+  selected: false
+  theme: Learning
+  doi: https://doi.org/10.1007/978-3-031-11647-6_25
+
+- id: umap22-injection
+  title: "Towards Supporting Adaptive Training of Injection Procedures: Detecting Differences in the Visual Attention of Nursing Students and Experts"
+  authors: "Cai, M., Zheng, B., & Demmans Epp, C."
+  venue: UMAP 2022
+  year: 2022
+  teaser: umap22-injection.png
+  selected: true
+  theme: Simulation
+  doi: https://doi.org/10.1145/3503252.3531302
+
+- id: chi21-ar
+  title: "Exploring Augmented Reality Games in Accessible Learning: A Systematic Review"
+  authors: "Cai, M., Akcayir, G., & Demmans Epp, C."
+  venue: CHI 2021 workshop
+  year: 2021
+  teaser: chi21-ar.png
+  selected: false
+  theme: XR
+  doi: https://arxiv.org/abs/2111.08214
+
+- id: hcis19-gotogether
+  title: "Go together: providing nonverbal awareness cues to enhance co-located sensation in remote communication"
+  authors: "Cai, M., & Tanaka, J."
+  venue: HCIS 2019
+  year: 2019
+  teaser: go-together.png
+  selected: true
+  theme: XR
+  doi: https://doi.org/10.1186/s13673-019-0180-y
+
+- id: hcii19-shopping
+  title: "Show something: intelligent shopping assistant supporting quick scene understanding and immersive preview"
+  authors: "Dou, H., Li, Z., Cai, M., Cheng, K., Masuko, S., & Tanaka, J."
+  venue: HCII 2019
+  year: 2019
+  teaser: hcii19-shopping.png
+  selected: false
+  theme: XR
+  doi: https://doi.org/10.1007/978-3-030-22649-7_17
+
+- id: achi19-shoulder
+  title: Remote shoulder-to-shoulder communication enhancing co-located sensation
+  authors: "Cai, M., & Tanaka, J."
+  venue: ACHI 2019
+  year: 2019
+  teaser: achi19-shoulder.png
+  selected: true
+  theme: XR
+  note: Best Paper Award
+  doi:
+
+- id: iui18-gesture
+  title: Gesture-based mobile communication system providing side-by-side shopping feeling
+  authors: "Cai, M., Masuko, S., & Tanaka, J."
+  venue: IUI 2018
+  year: 2018
+  teaser: iui18-gesture.png
+  selected: false
+  theme: XR
+  doi: https://doi.org/10.1145/3180308.3180310
+
+- id: hai17-trip
+  title: "Trip together: a remote pair sightseeing system supporting gestural communication"
+  authors: "Cai, M., & Tanaka, J."
+  venue: HAI 2017
+  year: 2017
+  teaser: hai17-trip.png
+  selected: false
+  theme: XR
+  doi: https://doi.org/10.1145/3125739.3125762

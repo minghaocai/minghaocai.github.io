@@ -1,0 +1,50 @@
+---
+layout: default
+title: About
+---
+
+<p class="lead">Hi there! I am a PhD Candidate in Computing Science at the <a href="https://www.ualberta.ca/">University of Alberta</a>. My research lies at the intersection of <strong>affect</strong>, <strong>lifelong learning</strong>, and <strong>subjective well-being</strong>, with a core passion for developing systems that enrich user experiences.</p>
+
+<p>My doctoral work investigates how emotions and cognitive demands interact in independent digital learning environments (e.g., games, simulators, AI-based pedagogical tools). I employ multimodal analytics, combining attitudinal measures (affect, well-being) with behavioral data (interaction logs, eye tracking, physiology), to inform user-centered adaptations that enhance experiences and performance. I have worked with diverse populations ranging from children to professionals.</p>
+
+<p>At the U of Victoria (RA), I developed and evaluated AI-supported tools to promote the mental well-being of knowledge workers. My earlier master’s research focused on designing extended-reality communication systems that foster a sense of companionship in remote collaboration.</p>
+
+<p class="job">I am actively looking for a research and development position.</p>
+
+<h1>Research Themes</h1>
+<p>I study how affect and cognitive load shape independent learning, then use that understanding to design adaptive support. The work sits in three themes:</p>
+
+<div class="themes">
+  <div class="theme-col">
+    <h2 class="pill pill-a">Affect</h2>
+    <ul>
+      <li>Valence &amp; activation</li>
+      <li>Meta-affect</li>
+      <li>Experience sampling</li>
+    </ul>
+  </div>
+  <div class="theme-col">
+    <h2 class="pill pill-b">Cognitive Load</h2>
+    <ul>
+      <li>Multimodal sensing</li>
+      <li>Physiology &amp; logs</li>
+      <li>Adaptive support</li>
+    </ul>
+  </div>
+  <div class="theme-col">
+    <h2 class="pill pill-c">Well-being</h2>
+    <ul>
+      <li>Lifelong learning</li>
+      <li>Workplace happiness</li>
+      <li>XR companionship</li>
+    </ul>
+  </div>
+</div>
+
+<h1>Selected Publications</h1>
+{% assign selected = site.data.publications | where: "selected", true %}
+{% for pub in selected %}
+  {% include pub.html %}
+{% endfor %}
+
+<p class="more"><a href="{{ '/publications/' | relative_url }}">All publications →</a></p>

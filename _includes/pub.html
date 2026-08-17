@@ -1,0 +1,15 @@
+<article class="pub">
+  <img class="pub-thumb" src="{{ '/assets/img/papers/' | relative_url }}{{ pub.teaser }}" alt="">
+  <div class="pub-body">
+    <h3 class="pub-title">{{ pub.title }}</h3>
+    <p class="pub-authors">{{ pub.authors | replace: 'Cai, M.', '<strong>Cai, M.</strong>' }}</p>
+    <p class="pub-meta">
+      <span class="venue">{{ pub.venue }}</span>
+      {% if pub.note %}<span class="note">{{ pub.note }}</span>{% endif %}
+      {% if pub.theme %}<span class="theme">{{ pub.theme }}</span>{% endif %}
+    </p>
+    <p class="pub-links">
+      {% if pub.doi %}<a href="{{ pub.doi }}">PDF / DOI</a>{% endif %}
+    </p>
+  </div>
+</article>
