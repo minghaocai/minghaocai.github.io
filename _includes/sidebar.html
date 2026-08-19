@@ -9,29 +9,10 @@
 </p>
 
 <div class="news-block">
-  <span class="news-badge">News</span>
+  <span class="news-label">News</span>
   <ul class="news-list">
-    {% for item in site.data.news limit:6 %}
+    {% for item in site.data.news limit:5 %}
       <li><span class="news-date">{{ item.date }}</span> {{ item.html }}</li>
-    {% endfor %}
-  </ul>
-</div>
-
-<div class="side-section">
-  <h3>Teaching</h3>
-  <ul>
-    {% for t in site.data.teaching %}
-      <li><span class="muted">{{ t.role }}.</span> {{ t.detail }}</li>
-    {% endfor %}
-  </ul>
-</div>
-
-<div class="side-section">
-  <h3>Academic Service</h3>
-  <p class="muted small">Reviewed more than 40 papers.</p>
-  <ul>
-    {% for s in site.data.service %}
-      <li>{{ s }}</li>
     {% endfor %}
   </ul>
 </div>

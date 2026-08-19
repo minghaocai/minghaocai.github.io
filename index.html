@@ -43,8 +43,25 @@ title: About
 
 <h1>Selected Publications</h1>
 {% assign selected = site.data.publications | where: "selected", true %}
-{% for pub in selected %}
+{% for pub in selected limit:6 %}
 {% include pub.html %}
 {% endfor %}
 
 <p class="more"><a href="{{ '/publications/' | relative_url }}">All publications →</a></p>
+
+<section class="cv-block">
+  <h2>Teaching</h2>
+  <ul>
+    {% for t in site.data.teaching %}
+      <li><span class="muted">{{ t.role }}.</span> {{ t.detail }}</li>
+    {% endfor %}
+  </ul>
+  <h2>Academic Service</h2>
+  <ul>
+    <li class="muted">Reviewed more than 40 papers.</li>
+    {% for s in site.data.service %}
+      <li>{{ s }}</li>
+    {% endfor %}
+  </ul>
+</section>
+
