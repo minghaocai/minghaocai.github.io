@@ -1,0 +1,10 @@
+- role: AI Engineer Intern
+  org: Giatec Scientific Inc.
+  location: Ottawa
+  dates: Sep 2025 – Present
+  detail: "Supporting AI literacy and agentic AI adoption; designing and evaluating human-in-the-loop AI agents and MCP-based workflows (Azure, Claude, LangGraph, Python, React, PostgreSQL)."
+
+- role: Research Assistant
+  org: VIXI Lab, University of Victoria
+  dates: Jan 2025 – Sep 2025
+  detail: "Built Hapi@Work, an AI-supported well-being app for knowledge workers (React, Node.js, Electron; GPT-4.1 for personalized suggestions)."
