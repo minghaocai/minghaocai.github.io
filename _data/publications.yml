@@ -26,7 +26,6 @@
   teaser: aied25-interplay.png
   selected: true
   theme: Affect
-  pdf:
   doi: https://doi.org/10.1007/978-3-031-98420-4_31
 
 - id: aied25-proxy
@@ -35,7 +34,7 @@
   venue: AIED 2025
   year: 2025
   teaser: aied25-proxy.png
-  selected: true
+  selected: false
   theme: Cognitive Load
   doi: https://doi.org/10.1007/978-3-031-98462-4_33
 
@@ -45,7 +44,7 @@
   venue: UMAP 2025
   year: 2025
   teaser: umap25-pilot.png
-  selected: true
+  selected: false
   theme: Simulation
   doi: https://doi.org/10.1145/3699682.3728337
 
@@ -58,6 +57,7 @@
   selected: false
   theme: Cognitive Load
   note: Poster
+  pdf: https://arxiv.org/pdf/2507.13235
   doi: https://doi.org/10.48550/arXiv.2507.13235
 
 - id: edm24-sensors
@@ -68,7 +68,8 @@
   teaser: edm24-sensors.png
   selected: false
   theme: Cognitive Load
-  doi: https://zenodo.org/records/12729950
+  pdf: https://zenodo.org/records/12729950
+  doi: https://doi.org/10.5281/zenodo.12729950
 
 - id: physiochi24-window
   title: Exploring the optimal time window for predicting cognitive load using physiological sensor data
@@ -78,6 +79,7 @@
   teaser: physiochi24-window.png
   selected: false
   theme: Cognitive Load
+  pdf: https://arxiv.org/pdf/2406.13793
   doi: https://doi.org/10.48550/arXiv.2406.13793
 
 - id: chi24-affect-cl
@@ -117,6 +119,7 @@
   teaser: edm22-adaptive.png
   selected: false
   theme: Cognitive Load
+  pdf: https://zenodo.org/records/6853020
   doi: https://doi.org/10.5281/zenodo.6853020
 
 - id: aied22-tensions
@@ -135,7 +138,7 @@
   venue: UMAP 2022
   year: 2022
   teaser: umap22-injection.png
-  selected: true
+  selected: false
   theme: Simulation
   doi: https://doi.org/10.1145/3503252.3531302
 
@@ -147,6 +150,7 @@
   teaser: chi21-ar.png
   selected: false
   theme: XR
+  pdf: https://arxiv.org/pdf/2111.08214
   doi: https://arxiv.org/abs/2111.08214
 
 - id: hcis19-gotogether

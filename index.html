@@ -12,23 +12,23 @@ title: About
 <p class="job">I am actively looking for a research and development position.</p>
 
 <h1>Research Themes</h1>
-<p>I study how affect and cognitive load shape independent learning, then use that understanding to design adaptive support. The work sits in three themes:</p>
+<p>I study how people feel and think while learning with technology, then design support that improves experience and performance. The work sits in three themes:</p>
 
 <div class="themes">
   <div class="theme-col">
-    <h2 class="pill pill-a">Affect</h2>
+    <h2 class="pill pill-a">Learning Experience</h2>
     <ul>
-      <li>Valence &amp; activation</li>
-      <li>Meta-affect</li>
-      <li>Experience sampling</li>
+      <li>Affect &amp; cognitive load</li>
+      <li>Multimodal sensing</li>
+      <li>Adaptive support</li>
     </ul>
   </div>
   <div class="theme-col">
-    <h2 class="pill pill-b">Cognitive Load</h2>
+    <h2 class="pill pill-b">Human–AI Interaction</h2>
     <ul>
-      <li>Multimodal sensing</li>
-      <li>Physiology &amp; logs</li>
-      <li>Adaptive support</li>
+      <li>AI-supported well-being</li>
+      <li>Pedagogical agents &amp; tools</li>
+      <li>User-centered adaptation</li>
     </ul>
   </div>
   <div class="theme-col">
@@ -43,7 +43,7 @@ title: About
 
 <h1>Selected Publications</h1>
 {% assign selected = site.data.publications | where: "selected", true %}
-{% for pub in selected limit:6 %}
+{% for pub in selected %}
 {% include pub.html %}
 {% endfor %}
 

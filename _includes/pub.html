@@ -9,7 +9,9 @@
       {% if pub.theme %}<span class="theme">{{ pub.theme }}</span>{% endif %}
     </p>
     <p class="pub-links">
-      {% if pub.doi %}<a href="{{ pub.doi }}">PDF / DOI</a>{% endif %}
+      {% if pub.pdf %}<a href="{{ pub.pdf }}">PDF</a>{% endif %}
+      {% if pub.pdf and pub.doi %} · {% endif %}
+      {% if pub.doi %}<a href="{{ pub.doi }}">DOI</a>{% endif %}
     </p>
   </div>
 </article>
